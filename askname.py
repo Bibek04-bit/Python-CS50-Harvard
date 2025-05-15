@@ -1,2 +1,6 @@
 name = input("what is your name?")
-print("Hi " + name)
+#print("Hi "+name)
+#print(f"Hi, {name}")
+name = name.strip()
+name = name.title()
+print("Hi,",name)
