@@ -6,15 +6,21 @@ def main():
     if players == "Multiplayer":
       recommend("PUBG")
       
-    else:
+    elif players == "Single-player":
       recommend("Elden Ring")
+      
+    else:
+      print("Enter valid number of player")
   elif difficulty == "Casual":
     if players == "Multiplayer":
       recommend("Free Fire")
-    else:
+    elif players == "Single-player":
       recommend("RDR2")
+    else:
+      print("Choose a valid number of player")
+      
   else:
-    print("Choose a valid option")
+    print("Enter a valid difficulty")
  
  
  
